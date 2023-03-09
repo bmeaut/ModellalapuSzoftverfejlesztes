@@ -1,1 +1,1 @@
-Additional materials (practice tests, mathematical definitions) should go here.
+Modellalapú szoftverfejlesztés tárgy - Kiegészítő anyagok, érdekességek

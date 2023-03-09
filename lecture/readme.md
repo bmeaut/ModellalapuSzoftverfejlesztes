@@ -1,0 +1,1 @@
+Modellalapú szoftverfejlesztés tárgy - Előadások
