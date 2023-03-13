@@ -5,7 +5,8 @@
 - Syntax Visualizer: szintaxisfa vizualizáció demó
 - DataControlFlowAPI: adat-, és vezérlésfolyam elemzés demó
 - ScriptingAPI: scripting API (dinamikus kiértékelés) demó
-- *A CodeAnalyzer és CodeFixProvider demókat a gyakorlaton készítjük el*
+
+A CodeAnalyzer és CodeFixProvider (kódszerkesztő refaktor funkciók) demóját a gyakorlaton élőben mutatjuk be. [Step-by-step leírás](https://github.com/bmeaut/ModellalapuSzoftverfejlesztes/raw/master/practice/practice_02/RoslynDemo_Utmutato.pdf) a demóhoz.
 
 **A futtatáshoz szükséges eszközök**
 - Visual Studio 2022 
