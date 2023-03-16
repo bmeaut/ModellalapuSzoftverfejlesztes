@@ -44,7 +44,8 @@ namespace ScriptingAPI
             {
                 var codeToEval = Console.ReadLine();
                 var result = await CSharpScript.EvaluateAsync(codeToEval);
-                }
+	        Console.WriteLine(result);
+            }
         }
 
         static async Task Scripting3()
