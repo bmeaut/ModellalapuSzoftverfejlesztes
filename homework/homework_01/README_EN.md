@@ -69,7 +69,7 @@ The *statemodel.exceptions* package contains helper classes for error handling, 
 
 ## Task
 
-The goal of the homework is to create an ANTLR grammar (*StateModel.g4* file) based on the specification of the above language, and to run the lexer and parser generated from it (main function of *StateModelRunner.java* class) on the given input (*input.state* file) without errors and to process it completely. The content of the input file can be freely modified during development, but it must contain the original text when submitted at the end!
+The goal of the homework is to create an ANTLR grammar (*StateModel.g4* file) based on the specification of the above language, and to run the lexer and parser generated from it (main function of *StateModelRunner.java* class) on the given input (*input.state* file) without errors and to process it completely. The content of the input file can be freely modified during development, but it must contain the original text when submitted at the end! The name of the starting rule should be *model*, or we can modify the contents of the *StateModelRunner.java* file: *ModelContext* --> *XYContext*, where XY is the name of the starting rule!
 
 > **Note:_** The semantic analysis (and subsequent compilation phases) is not part of the task. So certain requirements (e.g. that there can always be exactly one initial state) do not need to be checked, nor do they need to be solved in any form in the grammar! But part of the task is to identify them and, based on this, to write the grammar in such a way that the lexer and parser generated from the grammar can completely process the input text without errors.
 

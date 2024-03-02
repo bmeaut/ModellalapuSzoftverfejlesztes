@@ -69,7 +69,7 @@ A *statemodel.exceptions* package hibakezeléssel kapcsolatos segédosztályokat
 
 ## Feladat
 
-A házi feladat célja, hogy a fenti nyelv specifikációja alapján elkészüljön az azt leíró ANTLR nyelvtan (*StateModel.g4* fájl), valamint az ebből generált lexert és parsert futtatva (*StateModelRunner.java* osztály main függvénye) a megadott bemenetre (*input.state* fájl) hiba nélkül lefusson és teljesen feldolgozza azt. A bemeneti fájl tartalma a fejlesztés során szabadon módosítható, de beadáskor az eredeti szöveg szerepeljen benne!
+A házi feladat célja, hogy a fenti nyelv specifikációja alapján elkészüljön az azt leíró ANTLR nyelvtan (*StateModel.g4* fájl), valamint az ebből generált lexert és parsert futtatva (*StateModelRunner.java* osztály main függvénye) a megadott bemenetre (*input.state* fájl) hiba nélkül lefusson és teljesen feldolgozza azt. A bemeneti fájl tartalma a fejlesztés során szabadon módosítható, de beadáskor az eredeti szöveg szerepeljen benne! A kezdőszabály neve legyen *model*, vagy pedig módosítsuk a *StateModelRunner.java* fájl tartalmát: *ModelContext* --> *XYContext*, ahol XY a kezdőszabály neve!
 
 > **_Megjegyzés:_** A szemantikai elemzés (és a későbbi fordítási fázisok) nem része a feladatnak. Tehát bizonyos követelményeket (pl. hogy mindig pontosan egy kezdőállapot lehet) nem kell ellenőrizni, a nyelvtanban sem kell ezeket semmilyen formában megoldani! A feladat része viszont ezeknek a felismerése, és ezek alapján a nyelvtan oly módon való megírása, hogy a nyelvtanból generált lexer és parser a kiadott bemeneti szöveget hibamentesen és teljesen képes legyen feldolgozni.
 
