@@ -2,7 +2,7 @@
 
 ## A házi feladat elvégzésének lépései
 
-1. A [kiinduló](https://github.com/MDSDLab/mdsd-2024-xtext-hw) repó az Xtext gyakorlathoz tartozó [Projektek létrehozása](../../practice/practice_03/GY3-Xtext-Projektek.pdf) c. útmutató végeredményét tartalmazza. A kiinduló repó tartalmát másolja be a saját repójába, egy újonnan létrehozott **StateMachineDsl** mappába! 
+1. A [kiinduló](https://github.com/MDSDLab/mdsd-2024-xtext-hw) repó az Xtext gyakorlathoz tartozó [Projektek létrehozása](../../practice/practice_03/GY3-Xtext-Projektek.pdf) c. útmutató végeredményét tartalmazza néhány extra konfigurációval kiegészítve, hogy a projekteket Maven segítségével is lehessen fordítani. A kiinduló repó tartalmát másolja be a saját repójába, egy újonnan létrehozott **StateMachineDsl** mappába! 
 2. Oldja meg az [Xtext gyakorlat](../../practice/practice_03/GY3-Xtext-Utmutato.pdf) feladatait ezekre a projektekre építve!
 3. **Bővítse ki a gyakorlat eredményét az alábbi leírás alapján!**
 4. Készítsen egy **hw2-xtext** nevű **tag**-et az utolsó commitra!
