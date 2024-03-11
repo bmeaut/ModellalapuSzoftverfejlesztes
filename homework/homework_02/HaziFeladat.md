@@ -9,6 +9,7 @@
 
 ## Az Xtext gyakorlat eredményének kibővítése
 
+TODO
 
 ## Referenciák
 
