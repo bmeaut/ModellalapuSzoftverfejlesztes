@@ -1,10 +1,10 @@
 # 3. házi feladat - ANTLR
 
-Az ANTLR házi feladat kiírása [itt található](/ANTLR_HW/ANTLR.md).
+Az ANTLR házi feladat kiírása [itt található](./ANTLR_HW/ANTLR.md).
 
 # 3. házi feladat - LLVM
 
-Az LLVM házi feladat kiírása [itt található](/LLVM_HW/LLVM.md).
+Az LLVM házi feladat kiírása [itt található](./LLVM_HW/LLVM.md).
 
 
 
