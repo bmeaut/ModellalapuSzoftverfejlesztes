@@ -9,7 +9,7 @@
 ## A feladat
 
 A feladat egy kapott LLVM IR kódrészlet optimalizálása az LLVM `opt` eszközével.
-A számozott kódrészletek a [Feladatok](/Feladatok) mappában a feladat bemenetei, a használandó bemenet sorszáma a Neptun kód alapján áll elő, az első számjegy a neptun első karaktere szerint:
+A számozott kódrészletek a [Feladatok](./Feladatok) mappában a feladat bemenetei, a használandó bemenet sorszáma a Neptun kód alapján áll elő, az első számjegy a neptun első karaktere szerint:
 * [A-M] -> Nincs
 * [N-Z] -> 1
 
@@ -25,7 +25,7 @@ A második számjegy a második karakter szerint:
 * [S-V] -> 8
 * [W-Z] -> 9
 
-Tehát például az N8ABCD neptun kód szerint a kapott bemenet az [in(12)](/Feladatok/in%20(12).ll) fájl.
+Tehát például az N8ABCD neptun kód szerint a kapott bemenet az [in(12)](./Feladatok/in%20(12).ll) fájl.
 
 ## A megoldás menete
 
