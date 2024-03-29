@@ -35,14 +35,16 @@ public class TinyScriptOutputExample {
 
     public static void main(String[] args) {
         int a = 1 + 2 + 3;
-        var b = a * 2;
+        String s = "apple";
+        boolean b = true;
+        var i = a * 2;
 
-        while (b < 15) {
-            b = b + 1;
-            print("b increased");
+        while (i < 15) {
+            i = i + 1;
+            print("i increased");
         }
 
-        if (true) {
+        if (b) {
             add(1, 2);
         }
         else {
