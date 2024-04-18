@@ -50,3 +50,6 @@ A feladat elvégzéséhez az alábbi részfeladatokat kell elvégeznie:
   7.2 és egy értéket rendel hozzá, vagy esetleg módosítja az értéket (az attribútumhoz tartozó `.setXXX( )` függvény meghívásával).
 8. A kódját a `/src/mycode/FixModel.java` alkalmazás futtatásával tesztelheti, az eredményt a `model-output.xmi` modellben tekintheti meg.
 9. A kódját a `FixingTest.java` ellenőrzi. A teszt a biztonság kedvéért a modelljében minden értéket default értékre állít, hogy így tesztelje a helyes viselkedést. (A teszt nem írja felül a modelljeit).
+
+### Tag-elés és feltöltés
+Ellenőrizzük a munkánk helyességét a tesztekkel, töltsük fel a végleges verziót GitHub-ra, majd `hw4-emf` taggel jelöljük a megoldásunk.
