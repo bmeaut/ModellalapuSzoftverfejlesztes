@@ -7,7 +7,7 @@ A házi feladat során a metamodellezés gyakorlaton bemutatott EMF technológia
   - [JDK](https://adoptium.net/) (ha nem lenne)
   - [Eclipse Modeling Tools](https://www.eclipse.org/downloads/packages/release/2023-03/r/eclipse-modeling-tools)
 - Importálja a kiindulási állapotot (Az előadás során egy hasonló állapotig jutottunk).
-  - A kiindulási állapot itt érhető el: [HW04-init.zip](https://github.com/bmeaut/ModellalapuSzoftverfejlesztes/raw/master/homework/homework_04/HW04-init-v2.zip)
+  - A kiindulási állapot itt érhető el: [HW04-init-v2.zip](https://github.com/bmeaut/ModellalapuSzoftverfejlesztes/raw/master/homework/homework_04/HW04-init-v2.zip)
   - Importálja a fejlesztőkörnyezetébe:
     - `File > impport > Existing Projects into Workspace >  Select Archive file`
     - Kikeressük a zip állományt
