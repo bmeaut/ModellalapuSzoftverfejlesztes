@@ -1,4 +1,5 @@
 # Metamodellezés
+(english version available [here](https://github.com/bmeaut/ModellalapuSzoftverfejlesztes/blob/master/homework/homework_04/readme-en.md)) 
 
 ## Bevezetés
 A házi feladat során a metamodellezés gyakorlaton bemutatott EMF technológia megismerése a cél. A házi feladat megvalósításához:
