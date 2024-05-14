@@ -1,0 +1,261 @@
+// Metamodel
+
+/**
+ * A Social network consists of people posting about their life.
+ */
+class Person {
+    contains Post posts
+}
+
+/**
+ * A Post may reply to another post, and optionally, it may feature a Content.
+ */
+class Post {
+    Post replyTo
+    contains Content content
+}
+
+/**
+ * A Content represent some kind data shared by the posts.
+ */
+abstract class Content { }
+/**
+ * A Content can be an event advertised in the social network.
+ */
+class Event extends Content { }
+/**
+ * A Photo can be a Content uploaded to the social network.
+ */
+class Photo extends Content { }
+/**
+ * A Link to a webpage can be a Content shared in the social network. 
+ */
+class Link extends Content { }
+
+/**
+ * In a Social Network, People are connected with different kind of relationships.
+ */
+abstract class RelationShip.
+/**
+ * A SymmetricRelationship is a kind of relationship between two people,
+ * where the direction does not matter.
+ */
+abstract class SymmetricRelationship extends RelationShip {
+    Person[2] between
+}
+/**
+ * A DirectedRelationShip is a kind of relationship between two people,
+ * where the roles 
+ */
+abstract class DirectedRelationShip extends RelationShip {
+    Person[1] source
+    Person[1] target
+}
+/**
+ * Friendship is an example SymmetricRelationship.
+ */
+class Friendship extends SymmetricRelationship.
+/**
+ * Parent is an example DirectedRelationShip.
+ */
+class Parent extends DirectedRelationShip.
+
+// Predicates
+
+/**
+ * Person p1 and p2 are connected if there is a
+ * relationship (of any kind) between the two.
+ */
+pred connected(Person p1, Person p2) <->
+    false.
+
+/**
+ * A Person is lonely, if it does not participate in any relation.
+ */
+pred notConnected(Person lonely) <->
+    false.
+
+/**
+ * There is a Parent relation between child and parent.
+ */
+pred parent(Person child, Person parent) <->
+    false.
+
+/**
+ * There is a loop (circle) in the parenthood relation that contains p.
+ * This pattern indicates an inconsistentcy in the social network.
+ */
+pred parentLoop(Person p) <->
+    false.
+
+/**
+ * Post x participates in a circle of replies.
+ * This indicates an inconsistency.
+ */
+pred replyToCycle(Post x) <->
+    false.
+
+/**
+ * This pattern matches on events that are featured in posts that does not have
+ * any replies.
+ */
+pred unimportantEvent(Event e) <->
+    false.
+
+// Expected result
+
+connected(person2,person2).
+connected(person2,person3).
+connected(person2,person4).
+connected(person3,person2).
+connected(person4,person2).
+default !connected(*,*).
+notConnected(person1).
+notConnected(person5).
+notConnected(person6).
+notConnected(person7).
+notConnected(person8).
+notConnected(person9).
+notConnected(person10).
+notConnected(person11).
+notConnected(person12).
+notConnected(person13).
+notConnected(person14).
+notConnected(person15).
+notConnected(person16).
+default !notConnected(*).
+parent(person2,person2).
+parent(person2,person3).
+parent(person3,person2).
+default !parent(*,*).
+parentLoop(person2).
+parentLoop(person3).
+default !parentLoop(*).
+replyToCycle(post2).
+replyToCycle(post8).
+default !replyToCycle(*).
+unimportantEvent(event2).
+default !unimportantEvent(*).
+
+// Instance model
+
+declare person1, photo1, parent1, parent2, person2, parent3, friendship1, friendship2, friendship3, friendship4, friendship5, person3, parent4, friendship6, person4, post1, post2, event1, post3, photo2, person5, link1, person6, post4, post5, link2, photo3, person7, post6, link3, person8, post7, event2, person9, post8, event3, person10, person11, post9, link4, post10, person12, person13, person14, person15, post11, post12, person16, post13, post14.
+!exists(Person::new).
+!exists(Post::new).
+!exists(Event::new).
+!exists(Photo::new).
+!exists(Link::new).
+!exists(Friendship::new).
+!exists(Parent::new).
+Person(person1).
+Photo(photo1).
+Parent(parent1).
+Parent(parent2).
+Person(person2).
+Parent(parent3).
+Friendship(friendship1).
+Friendship(friendship2).
+Friendship(friendship3).
+Friendship(friendship4).
+Friendship(friendship5).
+Person(person3).
+Parent(parent4).
+Friendship(friendship6).
+Person(person4).
+Post(post1).
+Post(post2).
+Event(event1).
+Post(post3).
+Photo(photo2).
+Person(person5).
+Link(link1).
+Person(person6).
+Post(post4).
+Post(post5).
+Link(link2).
+Photo(photo3).
+Person(person7).
+Post(post6).
+Link(link3).
+Person(person8).
+Post(post7).
+Event(event2).
+Person(person9).
+Post(post8).
+Event(event3).
+Person(person10).
+Person(person11).
+Post(post9).
+Link(link4).
+Post(post10).
+Person(person12).
+Person(person13).
+Person(person14).
+Person(person15).
+Post(post11).
+Post(post12).
+Person(person16).
+Post(post13).
+Post(post14).
+posts(person2, post1).
+posts(person3, post2).
+posts(person4, post3).
+posts(person5, post4).
+posts(person6, post5).
+posts(person7, post6).
+posts(person8, post7).
+posts(person9, post8).
+posts(person10, post9).
+posts(person11, post10).
+posts(person12, post12).
+posts(person13, post14).
+posts(person14, post11).
+posts(person16, post13).
+content(post1, photo2).
+content(post2, event1).
+content(post3, link1).
+content(post4, photo3).
+content(post5, link2).
+content(post6, link3).
+content(post7, event2).
+content(post8, event3).
+content(post9, link4).
+content(post10, photo1).
+default !replyTo(*, *).
+replyTo(post1, post2).
+replyTo(post2, post2).
+replyTo(post3, post2).
+replyTo(post4, post3).
+replyTo(post5, post1).
+replyTo(post6, post3).
+replyTo(post7, post3).
+replyTo(post8, post8).
+replyTo(post9, post6).
+replyTo(post10, post6).
+replyTo(post11, post12).
+replyTo(post12, post2).
+replyTo(post13, post2).
+replyTo(post14, post4).
+default !between(*, *).
+between(friendship1, person2).
+between(friendship1, person3).
+between(friendship2, person2).
+between(friendship2, person3).
+between(friendship3, person2).
+between(friendship3, person3).
+between(friendship4, person2).
+between(friendship4, person3).
+between(friendship5, person2).
+between(friendship5, person3).
+between(friendship6, person2).
+between(friendship6, person4).
+default !source(*, *).
+source(parent1, person3).
+source(parent2, person2).
+source(parent3, person2).
+source(parent4, person2).
+default !target(*, *).
+target(parent1, person2).
+target(parent2, person2).
+target(parent3, person2).
+target(parent4, person3).
