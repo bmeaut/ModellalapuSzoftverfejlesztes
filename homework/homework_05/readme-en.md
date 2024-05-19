@@ -14,9 +14,9 @@ The environment consists of3 views, which can be toggled on and off using the bu
 - **Code**: this view displays our source code. During the homework assingment, we will edit our solution in this view.
 - **Graph**: this view displays our model. This view can be very helpful in solving the homework problem, because it allows you to see where the solution differs from the expected behaviour. The "filter panel" (top left) allows you to toggle the display of different elements. The view supports the display of relations with 1 and 2 parameters, higher arity relations (e.g. predicates with more than 2 parameters) can only be displayed in the Table view.
 - **Table**: this view displays the different relations of your model in a table format. The Value value shows the truth value of the given row, which can take up to 3 values in the homework:
-      * `true`: true statement.
-      * `error`: a statement where the homework solution and the expected value are inconsistent (e.g. one is true and the other is false for the given row). During the homework, these error rows will need to be removed.
-      * `false`: if a row is not in the table, it is interpreted as a false statement.
+     * `true`: true statement.
+     * `error`: a statement where the homework solution and the expected value are inconsistent (e.g. one is true and the other is false for the given row). During the homework, these error rows will need to be removed.
+     * `false`: if a row is not in the table, it is interpreted as a false statement.
 
 ### Source files
 The problem file containing the task is made up of different parts:
