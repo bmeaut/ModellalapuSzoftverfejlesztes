@@ -35,4 +35,4 @@ A feladat során az alábbi lépéseket kell elvégezni az predikátummal:
 
 Új predikátumot természetesen be lehet vezetni, törölni viszont nem lehet. Kérjük, hogy a fájl a struktúráján ne változtasson! A feladat során a **GENERATE** funkció használata nem szükséges (azt az automatikus javításhoz használjuk majd).
 
-A feladat végeztével mentsük a megoldásunk, töltsük fel githubra, majd tag-eljük meg a megoldásunk `hw5-mt`-vel!
+A feladat végeztével mentsük a megoldásunk, töltsük fel githubra, majd tag-eljük meg a megoldásunk `hw5-gt`-vel!
