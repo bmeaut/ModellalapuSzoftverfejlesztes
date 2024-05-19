@@ -1,3 +1,5 @@
+(English version available [here](https://github.com/bmeaut/ModellalapuSzoftverfejlesztes/blob/master/homework/homework_05/readme-en.md).)
+
 # Mintaillesztés
 
 A házifeladat során a Refinery keretrendszerben elérhető gráfmintaillesztő nyelvet fogjuk használni. A házi feladat a 6. laborra épít. A feladat során a cél pár egyszerű modellekérdezés megfogalmazása lesz.
