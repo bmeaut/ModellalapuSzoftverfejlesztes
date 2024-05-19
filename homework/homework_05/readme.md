@@ -17,7 +17,7 @@ A környezet 3 nézetre bontható, ahol a nézetek a középen felül elhelyezke
 -	**Graph**: ez a nézet jeleníti meg a modellünket. A nézet sokat segíthet a házi feladat megoldásában, itt lehet ugyanis megnézni, hol különbözik a megoldás az elvárt viselkedéstől. A „filter panel” (bal felül) segítségével ki- és bekapcsolhatjuk különböző elemek megjelenítését. A nézet a 1 és 2 elemű relációk megjelenítését támogatja, magasabb aritású relációkat (például 2-nél több paraméteres predikátumokat) csak táblázatos nézetben lehet megjeleníteni.
 -	**Table**: ez a nézet jeleníti meg a modellünk különböző relációit táblázatos formában. A Value érték mutatja az adott sor igazságértékét, ami a házi feladat során 3 értéket vehet fel:
       * `true`: igaz állítás.
-      * `error`: olyan állítás, ahol a házi feladat megoldása és az elvárt érték ellentmondóak (pl. egyik igaz, másik hamis az adott sorra). A házi feladat során ezeket az error sorokat kell majd eltüntetni.
+      * `error`: olyan állítás, ahol a házi feladat megoldása és az elvárt érték ellentmondóak (pl. egyik igaz, másik hamis az adott sorra). *A házi feladat során ezeket az error sorokat kell majd eltüntetni.*
       * `false`: ha egy sor nincs a táblázatban, akkor azt hamis állításként értelmezzük.
 
 ### Forrásállományok
@@ -25,7 +25,7 @@ A feladat tartalmazó problem állomány a különböző részekből épül fel:
 -	**Metamodel**: ez leírja a modellünkben található nyelvi elemeket. A metamodell leírása követi az XCore nyelv leírását (és nagyban hasonlít a C vagy Java alapú nyelvek osztáydefinícióira is). *Ezt a részt nem kell változtatni a feladat megoldása során.*
 -	**Predicates**: itt találhatóak a modellekre illeszthető minták (predikátumok) definíciói. Jelen esetben minden predikátum definíciója egy egyszerű false; a minták sose illeszkednek. *A feladat során ezt a részt kell változtatni.* A minták fölött kommentben van megfogalmazva az elvárt viselkedése a feladatoknak.
 -	**Expected result**: Ez a rész írja le, hogy helyes implementáció esetén hol várjuk el a minták illeszkedését. *Ezt a részt nem kell változtatni a feladat megoldása során.*
--	**Instance model**: Itt található egy példa modell definíciója. A declare rész bevezeti az objektumokat, a pozitív állítások meg típusokat és éleket vezetnek be (pl. `Person(person1).`), a többi állítás meg hamisra állítja a modell többi értékét. A modell szándékosan tartalmazhat fura részeket, hiszen pont olyan minták írását akarjuk tesztelni amely képes ezen értelmetlen részek felfedezésére. Ezt a részt nem kell változtatni a feladat megoldása során.
+-	**Instance model**: Itt található egy példa modell definíciója. A declare rész bevezeti az objektumokat, a pozitív állítások meg típusokat és éleket vezetnek be (pl. `Person(person1).`), a többi állítás meg hamisra állítja a modell többi értékét. A modell szándékosan tartalmazhat fura részeket, hiszen pont olyan minták írását akarjuk tesztelni amely képes ezen értelmetlen részek felfedezésére. *Ezt a részt nem kell változtatni a feladat megoldása során.*
 
 ## A feladat leírása
 A feladat során az alábbi lépéseket kell elvégezni az predikátummal:
