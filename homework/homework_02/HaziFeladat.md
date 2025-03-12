@@ -48,7 +48,7 @@ machine Lamp
 A bővítményeknek az alábbi tulajdoságaik vannak:
 
 * A `machine` törzsében, még az állapotok felsorolása előtt, lehessen `int` típusú mezőket definiálni, akár többet is!
-* A mezők kezdőértéke 0 legyen!
+* A mezők kezdőértéke alapértelmezetten 0 legyen!
 * Lehessen egy mező értékét eggyel megnövelni a prefix `++` operátor segítségével!
 * A `print` parancsnak több argumentuma is lehessen, amelyeket vesszővel elválasztva lehet megadni. Egy argumentum lehet karakterlánc vagy egy mezőre történő hivatkozás. A kimeneten az összes argumentum összefűzve, egy sorban jelenik meg.
 

@@ -48,7 +48,7 @@ machine Lamp
 The extensions have the following properties:
 
 * Inside the body of a `machine`, before the list of states, fields of type `int` can be defined! Any number of fields are allowed!
-* The initial value of a field is 0.
+* The initial value of a field is 0 by default.
 * The value of a field can be increased by 1 using the prefix `++` operator!
 * The `print` command can have multiple arguments separated by commas. An argument may be either a string literal or a reference to a field. On the output, all the arguments of a `print` statement appear concatenated in a single line.
 
