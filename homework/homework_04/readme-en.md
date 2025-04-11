@@ -7,7 +7,7 @@ The aim of this homework is to learn the EMF technology presented in the metamod
   - [JDK](https://adoptium.net/) (if you don't have one)
   - [Eclipse Modeling Tools](https://www.eclipse.org/downloads/packages/release/2025-03/r/eclipse-modeling-tools)
 - Import the initial state (We arrived at a similar state during the lecture).
-  - The initial state is available here: [HW04-init-v2.zip](https://github.com/bmeaut/ModellalapuSzoftverfejlesztes/raw/master/homework/homework_04/HW04-init.zip)
+  - The initial state is available here: [HW04-init.zip](https://github.com/bmeaut/ModellalapuSzoftverfejlesztes/raw/master/homework/homework_04/HW04-init.zip)
   - Import it into your development environment:
     - `File > impport > Existing Projects into Workspace > Select Archive file`
     - Extract the zip file
