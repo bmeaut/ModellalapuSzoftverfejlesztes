@@ -2,7 +2,7 @@
 
 ## Introduction
 The aim of this homework is to learn the EMF technology presented in the metamodelling exercise. To implement the homework:
-- Please review the following guide (https://github.com/bmeaut/ModellalapuSzoftverfejlesztes/blob/master/practice/practice_05/Model-based%20Software%20Development%20Practice05.pdf). The guide is very detailed so that you can fully reproduce the exercise at any time. The guide also refers to videos, in case you get stuck, the video will show you how to use the device in detail. Pages 1-10 of the guide present the knowledge needed to complete the homework.
+- Please review the following guide (https://github.com/bmeaut/ModellalapuSzoftverfejlesztes/blob/master/practice/practice_05/Model-based%20Software%20Development%20Practice05.pdf). The guide is very detailed so that you can fully reproduce the exercise at any time. Pages 1-10 of the guide present the knowledge needed to complete the homework.
 - Set up the environment needed to complete the task:
   - [JDK](https://adoptium.net/) (if you don't have one)
   - [Eclipse Modeling Tools](https://www.eclipse.org/downloads/packages/release/2025-03/r/eclipse-modeling-tools)
